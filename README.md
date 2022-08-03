@@ -34,7 +34,7 @@ Além disso, o programa deverá ser capaz de computar a quantidade de números p
 - Maior Numero: <b>MAX</b>
 
 <br>
-Onde <b>X</b>, <b>PARES</b>, <b>IMPARES</b> e <b>MAX</b> representam respectivamente o valor inicial dado como entrada, a quantidade de números pares na sequência, a quantidade de números ímpares na sequência e o maior número da sequência.
+Onde <b>X</b>, <b>PARES</b>, <b>IMPARES</b> e <b>MAX</b> representam respectivamente o valor inicial dado como entrada, a quantidade de números pares na sequência, a quantidade de números ímpares na sequência e o maior número da sequência."
 
 _______________________________________________________________________________________________________________________________________________________________________
 <b>Observações:</b>
