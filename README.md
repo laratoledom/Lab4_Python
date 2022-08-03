@@ -3,7 +3,7 @@
 Quarto projeto para submissão em Python de MC102 (Algoritmos e Programação de Computadores), curso ministrado pela UNICAMP.
 
 Dando continuidade aos projetos desenvolvidos nos laboratórios de MC102 (explicação no repositório ["IniciandoEmPython"](https://github.com/laratoledom/IniciandoEmPython/blob/main/README.md)), temos como proposta de desenvolvimento do código o seguinte problema:
-
+_______________________________________________________________________________________________________________________________________________________________________
   "A Conjectura de Collatz, conhecida também por Problema 3x+1, foi proposta pelo matemático alemão Lothar Collatz em 1937 e permanece em aberto desde então. Seu enunciado é bastante simples e requer apenas um número inteiro positivo x como entrada para o problema. Dado um número inteiro positivo x, caso x seja par, divida-o por dois. Caso contrário, multiplique-o por três e some um. O número resultante de uma dessas operações será o novo valor de x. Repita esse processo até que o valor de x seja igual a 1.
 
 De maneira mais formal, temos que:
