@@ -8,13 +8,18 @@ Dando continuidade aos projetos desenvolvidos nos laboratórios de MC102 (explic
 
 De maneira mais formal, temos que:
 
-![Formula de Collatz](https://media.discordapp.net/attachments/1004187806345740310/1004209114420891728/Imagem2.png)
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1004187806345740310/1004209114420891728/Imagem2.png" />
+</p>
 
 Por exemplo, suponha que x seja inicialmente igual a 11. O número 11 é ímpar, dessa forma o novo valor de x será (3*11) + 1 = 34. Repetindo o processo temos que o número 34 é par, logo o novo valor de x será 34/2 = 17. Repetindo esse processo chegaremos eventualmente no número 1, quando o processo acaba.
-A imagem a seguir mostra a sequência gerada a partir do número 11 até chegar no número 1. Os números com fundo na cor azul correspondem aos ímpares gerados, enquanto os com fundo na cor vermelha representam os números pares.
+A imagem a seguir mostra a sequência gerada a partir do número 11 até chegar no número 1. Os números com fundo na cor azul correspondem aos ímpares gerados, enquanto os com fundo na cor vermelha representam os números pares. <br><br>
 
-![Repeticao do Processo](https://media.discordapp.net/attachments/1004187806345740310/1004209647797940285/Imagem3.png)
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1004187806345740310/1004209647797940285/Imagem3.png" />
+</p>
 
+<br>
 Note que os valores na sequência podem aumentar ou diminuir dependendo da paridade de x. A princípio, podemos ter a impressão de que esse processo pode nunca terminar, com o número 1 nunca sendo alcançado. Entretanto, o processo descrito acima foi testado em uma imensa quantidade de números inteiros positivos e até hoje nenhum contraexemplo foi encontrado. Contudo, uma prova matemática de que esse processo funciona para qualquer número inteiro positivo também não foi apresentada ainda.
 
 O objetivo dessa atividade prática consiste em criarmos um programa que gere a sequência de números descrita pela Conjectura de Collatz a partir de um número inteiro positivo x.
@@ -28,8 +33,9 @@ Além disso, o programa deverá ser capaz de computar a quantidade de números p
 - Numeros Impares: <b>IMPARES</b>
 - Maior Numero: <b>MAX</b>
 
+<br>
 Onde <b>X</b>, <b>PARES</b>, <b>IMPARES</b> e <b>MAX</b> representam respectivamente o valor inicial dado como entrada, a quantidade de números pares na sequência, a quantidade de números ímpares na sequência e o maior número da sequência.
 
-
-**Observações:**
+_______________________________________________________________________________________________________________________________________________________________________
+<b>Observações:</b>
 O arquivo foi executado através do PyCharm e no arquivo "testes" podem ser encontrados alguns exemplos de teste que verificam o código.
